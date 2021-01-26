@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[BeforSuite: All declaration run sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[BeforClass: Setup process started ]]>
+    </line>
+    <line>
+      <![CDATA[BeforClass: Get URL from config file ]]>
+    </line>
+    <line>
+      <![CDATA[BeforClass: Open Expected browser and ready to execute test cases ]]>
+    </line>
+    <line>
+      <![CDATA[BeforMethod: ScreenShot will take if TC failed ]]>
+    </line>
+    <line>
+      <![CDATA[BeforMethod: ScreenShot will take if TC failed ]]>
+    </line>
+    <line>
+      <![CDATA[AfterClass: All Execuation done scussfuly and Browser closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14566" started-at="2021-01-26T04:04:41Z" finished-at="2021-01-26T04:04:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14566" started-at="2021-01-26T04:04:41Z" finished-at="2021-01-26T04:04:55Z">
+      <class name="com.learnautomation.testcases.LoginTestCases">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.learnautomation.testcases.LoginTestCases@68c4039c]" name="setupSuite" is-config="true" duration-ms="1585" started-at="2021-01-26T09:34:39Z" finished-at="2021-01-26T09:34:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[BeforSuite: All declaration run sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.learnautomation.testcases.LoginTestCases@68c4039c]" name="startUp" is-config="true" duration-ms="12194" started-at="2021-01-26T09:34:41Z" finished-at="2021-01-26T09:34:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[BeforClass: Setup process started ]]>
+            </line>
+            <line>
+              <![CDATA[BeforClass: Get URL from config file ]]>
+            </line>
+            <line>
+              <![CDATA[BeforClass: Open Expected browser and ready to execute test cases ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="LoginTestFunction()[pri:1, instance:com.learnautomation.testcases.LoginTestCases@68c4039c]" name="LoginTestFunction" duration-ms="864" started-at="2021-01-26T09:34:53Z" finished-at="2021-01-26T09:34:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestFunction -->
+        <test-method status="PASS" signature="tearDownMethodSS(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.LoginTestCases@68c4039c]" name="tearDownMethodSS" is-config="true" duration-ms="440" started-at="2021-01-26T09:34:54Z" finished-at="2021-01-26T09:34:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTestFunction status=SUCCESS method=LoginTestCases.LoginTestFunction()[pri:1, instance:com.learnautomation.testcases.LoginTestCases@68c4039c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BeforMethod: ScreenShot will take if TC failed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethodSS -->
+        <test-method status="PASS" signature="testLoggerFunctionality()[pri:2, instance:com.learnautomation.testcases.LoginTestCases@68c4039c]" name="testLoggerFunctionality" duration-ms="10" started-at="2021-01-26T09:34:54Z" finished-at="2021-01-26T09:34:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoggerFunctionality -->
+        <test-method status="PASS" signature="tearDownMethodSS(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.LoginTestCases@68c4039c]" name="tearDownMethodSS" is-config="true" duration-ms="101" started-at="2021-01-26T09:34:54Z" finished-at="2021-01-26T09:34:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoggerFunctionality status=SUCCESS method=LoginTestCases.testLoggerFunctionality()[pri:2, instance:com.learnautomation.testcases.LoginTestCases@68c4039c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BeforMethod: ScreenShot will take if TC failed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethodSS -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.learnautomation.testcases.LoginTestCases@68c4039c]" name="tearDown" is-config="true" duration-ms="921" started-at="2021-01-26T09:34:54Z" finished-at="2021-01-26T09:34:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[AfterClass: All Execuation done scussfuly and Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learnautomation.testcases.LoginTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
